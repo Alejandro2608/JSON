@@ -1,7 +1,8 @@
 const express = require('express');
 const app = express();
+const path = require('path');
 let estudios  ={
-    'Media técnica' : 'Programacion',
+    'Media técnica' : 'Programacion', 
     'primaria' : 1,
     'secundaria': 2,
 
@@ -29,4 +30,8 @@ app.get('/api', function (req, res) {
 
 app.listen(4000, function () {
   console.log(' estamos corriendo');
+});
+
+app.get('/page', function (req, res) {
+  res.sendFile(path.join(__dirname+'/clase_super/index.html'))
 });
