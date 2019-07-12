@@ -12,8 +12,8 @@ let estudios  ={
     
     'Contactos' : 'Contacto 1: alejo.ortegaa@gmail.com ... Contacto 2: Github',
 
-    'Hobbies' : 'Me encanta jugar videojuegos, escribir y programar'
-
+    'Hobbies' : 'Me encanta jugar videojuegos, escribir y programar',
+    'Hello matherfucker' : 'Hello'
 
 
 }
